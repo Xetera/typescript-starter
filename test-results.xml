@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="2" failures="0" time="0.935">
-  <testsuite name="Sanity check" errors="0" failures="0" skipped="0" timestamp="2019-08-16T06:56:20" time="0.533" tests="2">
-    <testcase classname="Sanity check checks if life is still real" name="Sanity check checks if life is still real" time="0.002">
-    </testcase>
-    <testcase classname="Sanity check checks if I know how to write tests" name="Sanity check checks if I know how to write tests" time="0">
-    </testcase>
-  </testsuite>
-</testsuites>
