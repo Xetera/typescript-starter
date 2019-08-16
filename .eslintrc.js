@@ -1,11 +1,16 @@
 const path = require("path")
 module.exports = {
   parser: "@typescript-eslint/parser",
+  env: {
+    node: true
+  },
   parserOptions: {
+    ecmaVersion: 6,
+    sourceType: "module",
     project: path.resolve(__dirname, "tsconfig.json"),
     tsconfigRootDir: __dirname
   },
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "eslint-plugin-prettier"],
   rules: {
     semi: ["error", "never"],
     "quotes": ["error", "double"],
@@ -14,7 +19,8 @@ module.exports = {
     "prettier/prettier": "error"
   },
   extends: [
-    "prettier",
+    "eslint-config-prettier",
+    "plugin:prettier/recommended",
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended"
   ]

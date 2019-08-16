@@ -1,8 +1,10 @@
-import dotenv from "dotenv"
-dotenv.config()
+require("dotenv").config()
+import { logger } from "./logger"
+
+export const greet = (thing: string) => `Hello ${thing}`
 
 const main = async () => {
-  console.log("Hello world!")
+  logger.info(greet("World"))
 }
 
 main()
