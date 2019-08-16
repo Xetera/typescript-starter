@@ -15,7 +15,7 @@ module.exports = {
     semi: ["error", "never"],
     "quotes": ["error", "double"],
     "quote-props": ["error", "as-needed"],
-    'prefer-arrow-callback': ["error"],
+    "prefer-arrow-callback": ["error"],
     "prettier/prettier": "error"
   },
   extends: [

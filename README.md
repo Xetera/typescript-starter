@@ -1,4 +1,4 @@
-# Node Starter
+# Typescript Starter
 
 ![banner](https://d2eip9sf3oo6c2.cloudfront.net/series/covers/000/000/052/full/EGH_Typescript_Plumbing_banner.png?1463413763)
 
@@ -6,7 +6,7 @@ Starter Node.js project that includes Typescript tooling I end up installing for
 
 ## Installation
 
-1. `git clone https://github.com/xetera/node-starter`
+1. `git clone https://github.com/xetera/typescript-starter`
 2. `cd node-starter`
 3. `npm install`
 

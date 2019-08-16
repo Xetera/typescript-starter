@@ -1,5 +1,5 @@
 module.exports = {
-  name: "node-starter",
+  name: "typescript-starter",
   preset: "ts-jest",
   automock: false,
   collectCoverage: true,

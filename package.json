@@ -1,7 +1,7 @@
 {
-  "name": "node-starter",
+  "name": "typescript-starter",
   "version": "1.0.0",
-  "description": "A template node project with all the necessary tooling",
+  "description": "A template typescript project with all the necessary tooling",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
