@@ -27,8 +27,6 @@ jobs:
           prefix: coverage
       - store_test_results:
           path: coverage/test-results.xml
-  lint:
-
 workflows:
   version: 2.1
   all:
