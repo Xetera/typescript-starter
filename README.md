@@ -1,5 +1,7 @@
 # Typescript Starter
 
+![cci-badge](https://img.shields.io/circleci/build/github/Xetera/typescript-starter)
+
 ![banner](https://d2eip9sf3oo6c2.cloudfront.net/series/covers/000/000/052/full/EGH_Typescript_Plumbing_banner.png?1463413763)
 
 Starter Node.js project that includes Typescript tooling I end up installing for most of my Node.js repos.
@@ -7,8 +9,9 @@ Starter Node.js project that includes Typescript tooling I end up installing for
 ## Installation
 
 1. `git clone https://github.com/xetera/typescript-starter`
-2. `cd node-starter`
+2. `cd typescript-starter`
 3. `npm install`
+4. `cp .env.example .env`
 
 ## Included tooling
 
@@ -16,7 +19,7 @@ Starter Node.js project that includes Typescript tooling I end up installing for
 - Eslint
 - Jest
 - Fast Check
-- Node TS
+- TS Node
 - Docker
 - Circle CI
 
