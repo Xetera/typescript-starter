@@ -1,4 +1,3 @@
-const path = require("path")
 module.exports = {
   parser: "@typescript-eslint/parser",
   env: {
@@ -7,8 +6,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 6,
     sourceType: "module",
-    project: path.resolve(__dirname, "tsconfig.json"),
-    tsconfigRootDir: __dirname
   },
   plugins: ["@typescript-eslint", "eslint-plugin-prettier"],
   rules: {
