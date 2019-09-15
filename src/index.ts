@@ -1,4 +1,5 @@
-require("dotenv").config()
+import { config } from "dotenv"
+config()
 import { logger } from "./logger"
 
 export const greet = (thing: string) => `Hello ${thing}`
