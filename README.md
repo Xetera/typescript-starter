@@ -28,9 +28,11 @@ Starter Node.js project that includes Typescript tooling I end up installing for
 - Dotenv
 - Winston
 
-### Why no yarn
+### Why ~~no~~ yarn
 
-I don't think Yarn is relevant in 2019 anymore. I personally believe that the JS community is divided enough in its tooling already and we don't need even more fragmentation. Stick with npm.
+~~I don't think Yarn is relevant in 2019 anymore. I personally believe that the JS community is divided enough in its tooling already and we don't need even more fragmentation. Stick with npm.~~
+
+Yarn allows for using workspaces which is very useful and more flexible than lerna. It's too good to pass up.
 
 ### Why no semicolons
 
