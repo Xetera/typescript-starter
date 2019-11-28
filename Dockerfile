@@ -1,7 +1,7 @@
-FROM node:10-alpine
+FROM node:12-alpine
 
 COPY package*.json ./
-RUN npm install --only=production
+RUN npm install
 COPY ./ ./
 
 # No need to build, running ts node
