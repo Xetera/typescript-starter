@@ -8,9 +8,9 @@ Starter Node.js project that includes Typescript tooling I end up installing for
 
 ## Installation
 
-1. `git clone https://github.com/xetera/typescript-starter`
-2. `cd typescript-starter`
-3. `npm install`
+1. `git clone https://github.com/xetera/typescript-starter project`
+2. `cd project`
+3. `yarn`
 4. `cp .env.example .env`
 
 ## Included tooling
