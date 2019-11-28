@@ -1,4 +1,4 @@
-import { greet } from ".."
+import { greet } from "."
 import * as fc from "fast-check"
 
 describe("Sanity check", () => {
