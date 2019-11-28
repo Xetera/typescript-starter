@@ -10,7 +10,9 @@ module.exports = {
   plugins: ["@typescript-eslint", "eslint-plugin-prettier"],
   rules: {
     semi: ["error", "never"],
+    "no-unused-vars": "off",
     "quotes": ["error", "double"],
+    "@typescript-eslint/no-unused-vars": "error",
     "quote-props": ["error", "as-needed"],
     "prefer-arrow-callback": ["error"],
     "prettier/prettier": "error"
