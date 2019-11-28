@@ -1,6 +1,6 @@
 # Typescript Starter
 
-![cci-badge](https://img.shields.io/circleci/build/github/Xetera/typescript-starter)
+[![Actions Status](https://github.com/Xetera/typescript-starter/workflows/CI%20Checks/badge.svg)](https://github.com/xetera/typescript-starter/actions)
 
 ![banner](https://d2eip9sf3oo6c2.cloudfront.net/series/covers/000/000/052/full/EGH_Typescript_Plumbing_banner.png?1463413763)
 
@@ -21,7 +21,7 @@ Starter Node.js project that includes Typescript tooling I end up installing for
 - Fast Check
 - TS Node
 - Docker
-- Circle CI
+- Github Actions
 
 ## Dependencies
 
