@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc --skipLibCheck",
+    "dev": "ts-node-dev src/index.ts",
     "start": "ts-node src/index.ts"
   },
   "author": "xetera",
@@ -30,6 +31,7 @@
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.5.3"
   },
   "jest-junit": {

@@ -20,6 +20,7 @@ Starter Node.js project that includes Typescript tooling I end up installing for
 - Jest
 - Fast Check
 - TS Node
+- TS Node Dev
 - Docker
 - Github Actions
 
