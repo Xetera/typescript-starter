@@ -1,0 +1,10 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Typescript compiler
+        uses: iCrawl/action-tsc@v1
+        with:
+          job-name: Compiling Typescript
