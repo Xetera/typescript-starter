@@ -26,4 +26,4 @@ jobs:
         with:
           job-name: Compiling Typescript
       - name: Run tests
-        run: yarn test
+        run: yarn test --passWithNoTests
