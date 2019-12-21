@@ -1,8 +1,8 @@
 FROM node:12-alpine
 
 COPY package*.json ./
-RUN npm install
+RUN yarn install
 COPY ./ ./
 
 # No need to build, running ts node
-CMD npm start
+CMD yarn run start
