@@ -4,3 +4,4 @@ coverage/
 .cache/
 .env
 junit.xml
+yarn-error.log
