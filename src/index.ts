@@ -1,3 +1,4 @@
+import "make-promises-safe"
 import "dotenv/config"
 import { logger } from "./logger"
 
