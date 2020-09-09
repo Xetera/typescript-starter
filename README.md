@@ -20,7 +20,7 @@ Starter Node.js project that includes Typescript tooling I end up installing for
 - Jest
 - Fast Check
 - TS Node
-- TS Node Dev
+- Nodemon
 - Docker
 - Github Actions
 
@@ -41,4 +41,4 @@ Idk I think no semi looks nicer.
 
 ### Why no gulp/grunt
 
-It's 2019
+It's 2020

@@ -1,0 +1,5 @@
+{
+  "ext": "src/*.ts,.env",
+  "verbose": true,
+  "exec": "tsc --incremental && node dist/index.js"
+}

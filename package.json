@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc --skipLibCheck",
-    "dev": "ts-node-dev src/index.ts",
-    "start": "ts-node src/index.ts"
+    "build": "tsc --skipLibCheck --incremental",
+    "dev": "nodemon",
+    "start": "node dist/index.js"
   },
   "author": "xetera",
   "license": "MIT",
@@ -30,10 +30,10 @@
     "fast-check": "^1.16.0",
     "jest": "^24.8.0",
     "jest-junit": "^7.0.0",
+    "nodemon": "^2.0.4",
     "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
-    "ts-node": "^8.10.1",
-    "ts-node-dev": "^1.0.0-pre.44"
+    "ts-node": "^8.10.1"
   },
   "jest-junit": {
     "outputDirectory": "coverage"
